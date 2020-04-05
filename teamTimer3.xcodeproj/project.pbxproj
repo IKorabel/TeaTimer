@@ -3,25 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		A2204D752269F660008A834A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2204D742269F660008A834A /* AppDelegate.swift */; };
-		A2204D772269F660008A834A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2204D762269F660008A834A /* ViewController.swift */; };
+		A2204D772269F660008A834A /* TeaTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2204D762269F660008A834A /* TeaTimerViewController.swift */; };
 		A2204D7A2269F660008A834A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2204D782269F660008A834A /* Main.storyboard */; };
 		A2204D7C2269F661008A834A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2204D7B2269F661008A834A /* Assets.xcassets */; };
 		A2204D7F2269F661008A834A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2204D7D2269F661008A834A /* LaunchScreen.storyboard */; };
+		A2230EC724391DAA00ED8D42 /* TeaSortsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2230EC624391DAA00ED8D42 /* TeaSortsInfo.swift */; };
+		A228F3632285D3AA00E254FC /* SortOfTeaInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A228F3622285D3AA00E254FC /* SortOfTeaInfoViewController.swift */; };
+		A228F369228B548F00E254FC /* futura-normal_[allfont.ru].ttf in Resources */ = {isa = PBXBuildFile; fileRef = A228F368228B548E00E254FC /* futura-normal_[allfont.ru].ttf */; };
+		A2A55A84243A44FB00CB4179 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A55A83243A44FB00CB4179 /* Helpers.swift */; };
+		A2A55A86243A46DE00CB4179 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A55A85243A46DE00CB4179 /* NotificationManager.swift */; };
+		A2A5DE5D2273448900616E3A /* TimerForAppSound2.wav in Resources */ = {isa = PBXBuildFile; fileRef = A2A5DE5C2273448900616E3A /* TimerForAppSound2.wav */; };
+		A2CB377A227DF2E800BED8D7 /* Tea.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CB3779227DF2E800BED8D7 /* Tea.swift */; };
+		A2CF4C1C243A392500466C92 /* UISettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CF4C1B243A392500466C92 /* UISettingsManager.swift */; };
+		F876699BE9384D1EF18D117F /* Pods_teamTimer3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A096F953EC9215D92E8B404 /* Pods_teamTimer3.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A096F953EC9215D92E8B404 /* Pods_teamTimer3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_teamTimer3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B467203C0A1D96172907CC /* Pods-teamTimer3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teamTimer3.release.xcconfig"; path = "Target Support Files/Pods-teamTimer3/Pods-teamTimer3.release.xcconfig"; sourceTree = "<group>"; };
 		A2204D712269F660008A834A /* teamTimer3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = teamTimer3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2204D742269F660008A834A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A2204D762269F660008A834A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2204D762269F660008A834A /* TeaTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeaTimerViewController.swift; sourceTree = "<group>"; };
 		A2204D792269F660008A834A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2204D7B2269F661008A834A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2204D7E2269F661008A834A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2204D802269F661008A834A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2230EC624391DAA00ED8D42 /* TeaSortsInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeaSortsInfo.swift; sourceTree = "<group>"; };
+		A228F3622285D3AA00E254FC /* SortOfTeaInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortOfTeaInfoViewController.swift; sourceTree = "<group>"; };
+		A228F368228B548E00E254FC /* futura-normal_[allfont.ru].ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "futura-normal_[allfont.ru].ttf"; sourceTree = "<group>"; };
+		A26C468023047BA500542172 /* gibson-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gibson-bold.ttf"; sourceTree = "<group>"; };
+		A26C468123047BA500542172 /* gibson-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gibson-regular.ttf"; sourceTree = "<group>"; };
+		A26C468223047BA500542172 /* gibson-regularitalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gibson-regularitalic.ttf"; sourceTree = "<group>"; };
+		A26C468323047BA500542172 /* gibson-bolditalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gibson-bolditalic.ttf"; sourceTree = "<group>"; };
+		A2A55A83243A44FB00CB4179 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		A2A55A85243A46DE00CB4179 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		A2A5DE5C2273448900616E3A /* TimerForAppSound2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = TimerForAppSound2.wav; sourceTree = "<group>"; };
+		A2CB3779227DF2E800BED8D7 /* Tea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tea.swift; sourceTree = "<group>"; };
+		A2CF4C1B243A392500466C92 /* UISettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISettingsManager.swift; sourceTree = "<group>"; };
+		B57076F4FAACD3D66F24F75D /* Pods-teamTimer3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teamTimer3.debug.xcconfig"; path = "Target Support Files/Pods-teamTimer3/Pods-teamTimer3.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F876699BE9384D1EF18D117F /* Pods_teamTimer3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +65,8 @@
 			children = (
 				A2204D732269F660008A834A /* teamTimer3 */,
 				A2204D722269F660008A834A /* Products */,
+				DDA63DE1E032840C82F2899D /* Pods */,
+				D53CDCF91735610BD1CA1991 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +81,107 @@
 		A2204D732269F660008A834A /* teamTimer3 */ = {
 			isa = PBXGroup;
 			children = (
-				A2204D742269F660008A834A /* AppDelegate.swift */,
-				A2204D762269F660008A834A /* ViewController.swift */,
-				A2204D782269F660008A834A /* Main.storyboard */,
-				A2204D7B2269F661008A834A /* Assets.xcassets */,
-				A2204D7D2269F661008A834A /* LaunchScreen.storyboard */,
 				A2204D802269F661008A834A /* Info.plist */,
+				A2A55A8D243A526D00CB4179 /* Interface */,
+				A2A55A8C243A513B00CB4179 /* Sounds */,
+				A2A55A8B243A512700CB4179 /* Helpers */,
+				A2A55A8A243A50AC00CB4179 /* Managers */,
+				A2A55A89243A4FF800CB4179 /* ViewControllers */,
+				A2230EC52438C35000ED8D42 /* Fonts */,
+				A2204D742269F660008A834A /* AppDelegate.swift */,
+				A2A55A87243A4E5B00CB4179 /* Model */,
+				A2204D7B2269F661008A834A /* Assets.xcassets */,
 			);
 			path = teamTimer3;
+			sourceTree = "<group>";
+		};
+		A2230EC52438C35000ED8D42 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A2A55A88243A4FDB00CB4179 /* ViewControllers */,
+				A26C468023047BA500542172 /* gibson-bold.ttf */,
+				A26C468323047BA500542172 /* gibson-bolditalic.ttf */,
+				A26C468123047BA500542172 /* gibson-regular.ttf */,
+				A26C468223047BA500542172 /* gibson-regularitalic.ttf */,
+				A228F368228B548E00E254FC /* futura-normal_[allfont.ru].ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A2A55A87243A4E5B00CB4179 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A2CB3779227DF2E800BED8D7 /* Tea.swift */,
+				A2230EC624391DAA00ED8D42 /* TeaSortsInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A2A55A88243A4FDB00CB4179 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A2A55A89243A4FF800CB4179 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A2204D762269F660008A834A /* TeaTimerViewController.swift */,
+				A228F3622285D3AA00E254FC /* SortOfTeaInfoViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A2A55A8A243A50AC00CB4179 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A2CF4C1B243A392500466C92 /* UISettingsManager.swift */,
+				A2A55A85243A46DE00CB4179 /* NotificationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A2A55A8B243A512700CB4179 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A2A55A83243A44FB00CB4179 /* Helpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A2A55A8C243A513B00CB4179 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A2A5DE5C2273448900616E3A /* TimerForAppSound2.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		A2A55A8D243A526D00CB4179 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				A2204D782269F660008A834A /* Main.storyboard */,
+				A2204D7D2269F661008A834A /* LaunchScreen.storyboard */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		D53CDCF91735610BD1CA1991 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A096F953EC9215D92E8B404 /* Pods_teamTimer3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDA63DE1E032840C82F2899D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B57076F4FAACD3D66F24F75D /* Pods-teamTimer3.debug.xcconfig */,
+				37B467203C0A1D96172907CC /* Pods-teamTimer3.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2204D832269F661008A834A /* Build configuration list for PBXNativeTarget "teamTimer3" */;
 			buildPhases = (
+				512EF8A2F2D8B756FC53B0F3 /* [CP] Check Pods Manifest.lock */,
 				A2204D6D2269F660008A834A /* Sources */,
 				A2204D6E2269F660008A834A /* Frameworks */,
 				A2204D6F2269F660008A834A /* Resources */,
+				6DA8DBB35A452CA2EBBD8384 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +218,7 @@
 				TargetAttributes = {
 					A2204D702269F660008A834A = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -122,20 +245,70 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A228F369228B548F00E254FC /* futura-normal_[allfont.ru].ttf in Resources */,
 				A2204D7F2269F661008A834A /* LaunchScreen.storyboard in Resources */,
 				A2204D7C2269F661008A834A /* Assets.xcassets in Resources */,
+				A2A5DE5D2273448900616E3A /* TimerForAppSound2.wav in Resources */,
 				A2204D7A2269F660008A834A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		512EF8A2F2D8B756FC53B0F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-teamTimer3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DA8DBB35A452CA2EBBD8384 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-teamTimer3/Pods-teamTimer3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-teamTimer3/Pods-teamTimer3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-teamTimer3/Pods-teamTimer3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A2204D6D2269F660008A834A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2204D772269F660008A834A /* ViewController.swift in Sources */,
+				A2230EC724391DAA00ED8D42 /* TeaSortsInfo.swift in Sources */,
+				A2A55A84243A44FB00CB4179 /* Helpers.swift in Sources */,
+				A228F3632285D3AA00E254FC /* SortOfTeaInfoViewController.swift in Sources */,
+				A2CF4C1C243A392500466C92 /* UISettingsManager.swift in Sources */,
+				A2A55A86243A46DE00CB4179 /* NotificationManager.swift in Sources */,
+				A2CB377A227DF2E800BED8D7 /* Tea.swift in Sources */,
+				A2204D772269F660008A834A /* TeaTimerViewController.swift in Sources */,
 				A2204D752269F660008A834A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,7 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +441,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -280,37 +453,41 @@
 		};
 		A2204D842269F661008A834A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B57076F4FAACD3D66F24F75D /* Pods-teamTimer3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4CV999C7WN;
-				INFOPLIST_FILE = teamTimer3/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/teamTimer3/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = IK.teamTimer3;
+				PRODUCT_BUNDLE_IDENTIFIER = IK.TeaTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A2204D852269F661008A834A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37B467203C0A1D96172907CC /* Pods-teamTimer3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4CV999C7WN;
-				INFOPLIST_FILE = teamTimer3/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/teamTimer3/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = IK.teamTimer3;
+				PRODUCT_BUNDLE_IDENTIFIER = IK.TeaTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
